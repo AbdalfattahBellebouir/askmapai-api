@@ -1,0 +1,108 @@
+# ======================================
+# Python general
+# ======================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ======================================
+# Virtual environments
+# ======================================
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+venv*/
+.env*/
+
+# ======================================
+# Distribution / packaging
+# ======================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ======================================
+# PyInstaller
+#  Usually these files are created by PyInstaller and contain build info
+# ======================================
+*.manifest
+*.spec
+
+# ======================================
+# Unit test / coverage reports
+# ======================================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ======================================
+# Jupyter Notebook
+# ======================================
+.ipynb_checkpoints
+
+# ======================================
+# PyCharm / VSCode / Editors
+# ======================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ======================================
+# OS / Misc
+# ======================================
+.DS_Store
+Thumbs.db
+
+# ======================================
+# Logs / temp
+# ======================================
+*.log
+*.tmp
+*.bak
+
+# ======================================
+# dotenv / environment files (secrets)
+# ======================================
+.env
+.env.*
+*.env
+
+!.env.example
+
+# ======================================
+# MyPy / type checking
+# ======================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ======================================
+# Profiling
+# ======================================
+.prof
