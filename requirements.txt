@@ -1,2 +1,2 @@
-"fastapi[standard]" // 0.0.13
-"openai"
+fastapi[standard]
+openai
